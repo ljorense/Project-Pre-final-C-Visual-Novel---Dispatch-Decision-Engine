@@ -40,7 +40,8 @@ while(condition == true)
 **CODE:**
 cout << “Enter choice: “;
 cin >> choice;
-EXPLANATION:
+
+**EXPLANATION:**
 -	using cout to print something to gather user input.
 -	using cin to save user input to variable choice.
 
