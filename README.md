@@ -7,6 +7,7 @@ void scene_interrogation(){
     
     cout << "After a brief physical altercation, Robert subdues the Goon by tying him to a chair." << endl <<
     "They then sit quietly inside the Goon's dark apartment room." << endl << endl <<
+}
 **EXPLANATION:**
 void scene_interrogation() 
 -	First scene called by main()
@@ -26,6 +27,7 @@ cout << “After a....”
         
         cout << "Enter choice: "; 
         cin >> choice;
+}
 **EXPLANATION:**
 while(condition == true)
 -	uses an infinite loop to allow multiple user input in case of invalid inputs.
@@ -55,7 +57,7 @@ if(choice == 1){
                 }
                     else{
                         cout << "INVALID INPUT!" << endl;
-                    }  
+                    }
 **EXPLANATION:**
 -	using an if else statement, if the user’s input is 1 then set variable is_merciful to true, variable condition to false and print outcome message.
 -	same process for user input 2.
@@ -94,6 +96,7 @@ void scene_combat_toxic(){
     "Goon keeps mocking Robert's father, which in turn, Robert commands his robot to... " << endl << endl << 
     
     "1. Punt Goon" << endl << "2. Stomp Goon" << endl;
+}
 **EXPLANATION:**
 -	This function uses two variables to determine the scene’s result/output.
 
@@ -130,7 +133,7 @@ void scene_combat_toxic(){
                                 else{
                                     cout << "INVALID INPUT!" << endl;
                                 }
-        }
+}
 **EXPLANATION:**
 -	uses same process as the other functions for the while loop and user input.
 
@@ -141,6 +144,7 @@ if(choice == 1 && is_merciful == true){
                     cout << "Robert's mech lightly punts Goon, still showing the same restraint as before." << endl;
                     toxic_punt = true;
                     condition = false;
+}
 **EXPLANATION:**
 -	if user input is equal to one AND if is_merciful is equal to true, then print output message, set toxic_punt to true, set condition to false.
 -	All other else if statements follow the same process.
